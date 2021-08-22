@@ -3,6 +3,8 @@
 **Version 2.0**
 
 This app helps user to store shop rent.
+Sqlite3 used as offline database.
+Firebase used for authentication and storing database online.
 
 ## Contributors
 
