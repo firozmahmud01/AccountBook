@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:title="@string/all_member"
+        android:id="@+id/nav_all_member"
+        android:icon="@drawable/all_member"
+        android:checked="true"/>
+    <item android:title="@string/add_new_member"
+        android:icon="@drawable/add_member"
+        android:id="@+id/nav_add_member"/>
+    <item android:title="@string/dashboard"
+        android:icon="@drawable/dashboard"
+        android:id="@+id/nav_dashboard"/>
+</group>
+    <item android:title="Upload"
+        android:icon="@drawable/upload"
+        android:id="@+id/nav_upload"/>
+    <item android:title="Download"
+        android:icon="@drawable/download"
+        android:id="@+id/nav_download"/>
+</menu>
